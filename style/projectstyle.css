@@ -9,6 +9,28 @@ h1 {
   text-align: center;
 }
 
+.title-project {
+  color: #37ff73;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  background-color: #a618ec;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+.footer a:hover,
+a:active {
+  background-color: #37ff73;
+}
+
 .item {
   background-color: greenyellow;
   width: 300px;
@@ -19,6 +41,7 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   border: solid 2px;
+  box-shadow: 1px 1px 10px #37ff73;
 }
 
 .item img {
